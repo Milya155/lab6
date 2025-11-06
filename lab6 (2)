@@ -1,0 +1,6 @@
+a=tuple(input('Введите имена через пробел:').split())
+otvet=''
+for name in a:
+    if "ва" in name:
+        otvet += name + ""
+print(otvet)
